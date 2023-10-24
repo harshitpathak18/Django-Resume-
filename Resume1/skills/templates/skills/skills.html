@@ -1,0 +1,72 @@
+{% extends "core/base.html" %}
+{% load static %}
+{% block body%}
+
+<div class="card card-body h-100  border-in" id="profile-wrapper">
+    <h3 class="text-primary">Skills</h3>
+    <hr>
+
+    <div class="row">
+        <div class="col">
+            <img class="card-img img-thumbnail w-25" src="{% static 'core/images/python.png' %}">
+            <h6 class="card-subheader">Python</h6>
+        </div>
+        <div class="col">
+            <img class="card-img img-thumbnail w-25" src="{% static 'core/images/django.png' %}">
+            <h6 class="card-subheader">Django</h6>
+        </div>
+        <div class="col">
+            <img class="card-img img-thumbnail w-25" src="{% static 'core/images/flask.png' %}">
+            <h6 class="card-subheader">Flask</h6>
+        </div>
+        <div class="col">
+            <img class="card-img img-thumbnail w-25" src="{% static 'core/images/machinelearning.png' %}">
+            <h6 class="card-subheader">Machine Learning</h6>
+        </div>     
+                           
+        
+    </div>
+    <br>
+    <div class="row">
+        <div class="col">
+            <img class="card-img img-thumbnail w-25" src="{% static 'core/images/html.png' %}">
+            <h6 class="card-subheader">HTML</h6>
+        </div>
+
+        <div class="card-img col">
+            <img class="card-img img-thumbnail w-25" src="{% static 'core/images/powerbi.png' %}">
+            <h6 class="card-subheader">Power</h6>
+        </div>
+        
+        <div class="col">
+            <img class="card-img img-thumbnail w-25" src="{% static 'core/images/css.png' %}">
+            <h6 class="card-subheader">CSS</h6>
+        </div>
+        
+        <div class="col"></div>
+    </div>
+    <br>
+    <br>
+    <h6>Currently, I'm Working On:</h6>
+    
+    <div class="row">
+        <div class="col">
+            <img class="card-img img-thumbnail w-25" src="{% static 'core/images/deeplearning.png' %}">
+            <h6 class="card-subheader">Deep Learning</h6>
+        </div>
+
+        <div class="card-img col">
+            <img class="card-img img-thumbnail w-25" src="{% static 'core/images/computervision.png' %}">
+            <h6 class="card-subheader">Computer Vision</h6>
+        </div>
+        
+        <div class="col">
+        </div>
+        
+        <div class="col"></div>
+    </div>
+
+</div>
+
+
+{% endblock body  %}

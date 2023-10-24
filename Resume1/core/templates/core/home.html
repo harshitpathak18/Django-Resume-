@@ -1,0 +1,67 @@
+{% extends "core/base.html" %}
+{% load static %}
+{% block body%}
+
+<div class="card card-body h-100  border-in" id="profile-wrapper">
+    <center>
+        <img id="profile-pic" class="rounded img-thumbnail w-25" src="{% static 'core/images/profile.gif' %}" >
+    </center>
+    <br>
+    <center>
+        <div class="btn-group" role="group">
+            <a href="https://www.facebook.com/harshit.pathak.184881?mibextid=9R9pXO">
+                <img class="social w-50" src="{% static 'core/images/facebook.png' %}">
+            </a>
+            <a href="https://www.linkedin.com/in/harshit-kumar-pathak-6452951b0/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <img class="social w-50" src="{% static 'core/images/linkedin.png' %}">
+            </a>
+            <a href="https://instagram.com/harshitpathak18?igshid=OGQ5ZDc2ODk2ZA==">
+                <img class="social w-50" src="{% static 'core/images/instagram.png' %}">
+            </a>
+            <a href="https://github.com/harshitpathak18">
+                <img class="social w-50" src="{% static 'core/images/github.png' %}">
+            </a>
+    
+        </div>
+    </center>
+    <hr>
+
+    <p>
+        Hi, I'm <b class="text-warning">Harshit Pathak </b>
+        a 22-year-old final year student majoring in Computer Science Engineering. 
+        My passion lies in coding and continually learning about emerging technologies. 
+        I thoroughly enjoy creating machine learning models and deriving valuable insights from datasets. 
+        Additionally, I find great satisfaction in crafting engaging presentations. 
+        My dedication to technology and data-driven solutions is at the core of my academic and professional journey.
+    </p>
+{% comment %} 
+    <div class="row">
+        <div class="col-md-2">
+            <a href="https://www.facebook.com/harshit.pathak.184881?mibextid=9R9pXO">
+                <img class="social w-75" src="{% static 'core/images/facebook.png' %}">
+            </a>
+        </div>
+        <div class="col-md-2">
+            <a href="https://www.linkedin.com/in/harshit-kumar-pathak-6452951b0/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <img class="social w-75" src="{% static 'core/images/linkedin.png' %}">
+            </a>
+        </div>
+        <div class="col-md-2">
+            <a href="https://instagram.com/harshitpathak18?igshid=OGQ5ZDc2ODk2ZA==">
+                <img class="social w-75" src="{% static 'core/images/instagram.png' %}">
+            </a>
+        </div>
+        <div class="col-md-2">
+            <a href="https://github.com/harshitpathak18">
+                <img class="social w-75" src="{% static 'core/images/github.png' %}">
+            </a>
+        </div>
+    </div> {% endcomment %}
+
+    <br>
+    <br><br>
+    
+    
+</div>
+
+{% endblock body%}
